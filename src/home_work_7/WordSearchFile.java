@@ -15,7 +15,6 @@ public class WordSearchFile implements Runnable {
         this.fileName = nameFile;
         this.word = word;
         this.iSearchEngine = iSearchEngine;
-        new Thread(this).start();
     }
     //Для нашего ответа и теста
     @Override
