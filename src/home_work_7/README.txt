@@ -18,4 +18,12 @@
 
 Задание 6 -> папка tests и в ней home_work_7.realization_of_interface
 
+Задание 7 -> WorkWithFiles
+
+Задание 8 -> WorkWithFilesMultithreading
+
+WordSearchFile для теста
+
+Тестик псоледний - home_work_7 -> WordSearchFileTest
+
 RefactorToString для конвертации, чтобы все выводилось в мейн

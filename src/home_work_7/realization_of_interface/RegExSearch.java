@@ -10,7 +10,7 @@ public class RegExSearch implements ISearchEngine {
     //Данный метод ищет слова с учётом регистра
     @Override
     public long search(String text, String word) {
-        String clearText = RefactorToString.deleteSomeSymb(RefactorToString.convertToString(text));
+        String clearText = RefactorToString.deleteSomeSymb(RefactorToString.convert(text));
         Pattern pattern = Pattern.compile("\\b" + Pattern.quote(word) + "\\b");
         Matcher matcher = pattern.matcher(clearText);
         return matcher.results().count(); //Возвращаем количество
